@@ -112,3 +112,6 @@ venv.bak/
 
 # Temporary install
 .unipls.egg-info
+
+# Claude config files
+.claude/
