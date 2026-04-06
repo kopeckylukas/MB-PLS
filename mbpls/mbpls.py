@@ -1493,7 +1493,7 @@ class MBPLS(TransformerMixin, RegressorMixin, MultiOutputMixin, BaseEstimator):
             for block in range(self.num_blocks_):
                 # Inverse transforming weights/loadings
                 if self.standardize:
-                    P_inv_trans.append(self.x_scalers_[block].inverse_transform(self.P_[block][:, comp]))
+                    P_inv_trans.append(self.x_scalers_[block].inverse_transform(self.P_[block][:, comp].reshape(1, -1)).flatten())
                 else:
                     P_inv_trans.append(self.P_[block][:, comp])
 
