@@ -358,7 +358,7 @@ class MBPLS(TransformerMixin, RegressorMixin, MultiOutputMixin, BaseEstimator):
 
         self.W_ = []
         self.W_non_normal_ = []
-        if self.method is not 'SIMPLS':
+        if self.method != 'SIMPLS':
             self.A_ = np.empty((self.num_blocks_, 0))
             self.A_corrected_ = np.empty((self.num_blocks_, 0))
             self.T_ = []
@@ -372,7 +372,7 @@ class MBPLS(TransformerMixin, RegressorMixin, MultiOutputMixin, BaseEstimator):
         for block in range(self.num_blocks_):
             self.W_.append(np.empty((X[block].shape[1], 0)))
             self.W_non_normal_.append(np.empty((X[block].shape[1], 0)))
-            if self.method is not 'SIMPLS':
+            if self.method != 'SIMPLS':
                 self.T_.append(np.empty((X[block].shape[0], 0)))
 
         # Concatenate X blocks
@@ -1124,7 +1124,7 @@ class MBPLS(TransformerMixin, RegressorMixin, MultiOutputMixin, BaseEstimator):
                     Y = Y.reshape(-1, 1)
                 Y = self.y_scaler_.transform(Y)
                 # Here the block scores are calculated iteratively for new blocks
-                if self.method is not 'SIMPLS': 
+                if self.method != 'SIMPLS': 
                     T_ = []
                     for block in range(self.num_blocks_):
                         T_.append(np.empty((X[block].shape[0], 0)))
@@ -1182,7 +1182,7 @@ class MBPLS(TransformerMixin, RegressorMixin, MultiOutputMixin, BaseEstimator):
                         U_ = Y.dot(self.V_) / np.linalg.norm(Y.dot(self.V_), axis=0)
                     return Ts_, U_
             else:
-                if self.method is not 'SIMPLS':
+                if self.method != 'SIMPLS':
                     # Here the block scores are calculated iteratively for new blocks
                     T_ = []
                     for block in range(self.num_blocks_):
