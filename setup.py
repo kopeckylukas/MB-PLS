@@ -24,6 +24,7 @@ NUMPY_MIN_VERSION = '1.19.5'
 SCIPY_MIN_VERSION = '1.6.0'
 SCIKIT_LEARN_MIN_VERSION = '1.6.0'
 PANDAS_MIN_VERSION = '2.0.0'
+MATPLOTLIB_MIN_VERSION = '3.0.0'
 
 def setup_package():
     with open('README.rst') as f:
@@ -63,7 +64,8 @@ def setup_package():
               'numpy>={0}'.format(NUMPY_MIN_VERSION),
               'scipy>={0}'.format(SCIPY_MIN_VERSION),
               'scikit-learn>={0}'.format(SCIKIT_LEARN_MIN_VERSION),
-              'pandas>={0}'.format(PANDAS_MIN_VERSION)
+              'pandas>={0}'.format(PANDAS_MIN_VERSION),
+              'matplotlib>={0}'.format(MATPLOTLIB_MIN_VERSION)
                 ],
           extras_require={
               'tests': [
@@ -73,9 +75,6 @@ def setup_package():
                   'sphinx_rtd_theme',
                   'nbsphinx',
                   'nbsphinx_link'
-                    ],
-              'extras': [
-                  'matplotlib',
               ],
           },
           python_requires='>=3.9',
