@@ -3,7 +3,7 @@ Multiblock Partial Least Squares Package
 
 
 .. image:: https://img.shields.io/pypi/v/multiblock-pls.svg
-    :target: https://pypi.python.org/pypi/multiblock-pls
+    :target: https://pypi.org/project/multiblock-pls/
     :alt: Pypi Version
 .. image:: https://img.shields.io/pypi/l/multiblock-pls.svg
     :target: https://pypi.python.org/pypi/multiblock-pls
