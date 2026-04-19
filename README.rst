@@ -13,17 +13,17 @@ Multiblock Partial Least Squares Package
    :alt: JOSS Paper DOI
 
 
-   *This is a newly maintained version of the package, based on the original
-   MBPLS software originally developed by Andreas Baum and Laurent Vermue
-   (homepabe: https://github.com/DTUComputeStatisticsAndDataAnalysis/MBPLS/).
-   This maintained version has been updated to be compatible with Python 3.8 and later, and modern
-   version of the dependencies. The original version of the package is no longer maintained,
-   and users are encouraged to use this updated version for their work.*
+*This is a newly maintained version of the package, based on the original
+MBPLS software originally developed by Andreas Baum and Laurent Vermue
+(homepabe: https://github.com/DTUComputeStatisticsAndDataAnalysis/MBPLS/).
+This maintained version has been updated to be compatible with Python 3.8 and later, and modern
+version of the dependencies. The original version of the package is no longer maintained,
+and users are encouraged to use this updated version for their work.*
 
-   *To cite this package, plase use the original publication by Baum et al. (2019) as described below
-   or refer to the GitHub repository for the most recent updates and contributions.*
+*To cite this package, plase use the original publication by Baum et al. (2019) as described below
+or refer to the GitHub repository for the most recent updates and contributions.*
 
-   *Lukas Kopecky, April 2026.*
+*Lukas Kopecky, April 2026.*
 
 An easy to use Python package for (Multiblock) Partial Least Squares
 prediction modelling of univariate or multivariate outcomes. Four state
