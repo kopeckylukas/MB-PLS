@@ -11,12 +11,12 @@ from setuptools import setup, find_packages
 
 import mbpls
 
-NAME = "mbpls"
+NAME = "mb-pls"
 VERSION = mbpls.__version__
 DESCRIPTION = "An implementation of the most common partial least squares algorithms as multi-block methods"
-URL = 'https://github.com/DTUComputeStatisticsAndDataAnalysis/MBPLS'
-AUTHORS = "Andreas Baum, Laurent Vermue"
-AUTHOR_MAILS = "<andba@dtu.dk>, <lauve@dtu.dk>"
+URL = 'https://github.com/kopeckylukas/MB-PLS'
+AUTHORS = "Andreas Baum, Laurent Vermue, Lukas Kopecky"
+AUTHOR_MAILS = "<andba@dtu.dk>, <lauve@dtu.dk>, <l.kopecky22@imperial.ac.uk>"
 LICENSE = 'new BSD'
 
 # This is the lowest tested version. Below might work as well
