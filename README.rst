@@ -41,7 +41,7 @@ Installation
 -  | Install the package for Python3 using the following command. Some
      dependencies might require an upgrade (scikit-learn, numpy and
      scipy).
-   | ``$ pip install multiblock-pls``
+   | ``$ pip install mb-pls``
 
 -  | Now you can import the MBPLS class by typing
    | ``from mbpls.mbpls import MBPLS``
