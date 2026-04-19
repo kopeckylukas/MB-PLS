@@ -2,8 +2,11 @@ Multiblock Partial Least Squares Package
 ========================================
 
 
-.. image:: https://img.shields.io/pypi/l/mbpls.svg
-    :target: https://pypi.python.org/pypi/mbpls/
+.. image:: https://img.shields.io/pypi/v/multiblock-pls.svg
+    :target: https://pypi.python.org/pypi/multiblock-pls
+    :alt: Pypi Version
+.. image:: https://img.shields.io/pypi/l/multiblock-pls.svg
+    :target: https://pypi.python.org/pypi/multiblock-pls
     :alt: License
 .. image:: https://readthedocs.org/projects/mbpls/badge/?version=latest
     :target: https://mbpls.readthedocs.io/en/latest/?badge=latest
@@ -41,7 +44,7 @@ Installation
 -  | Install the package for Python3 using the following command. Some
      dependencies might require an upgrade (scikit-learn, numpy and
      scipy).
-   | ``$ pip install mb-pls``
+   | ``$ pip install multiblock-pls``
 
 -  | Now you can import the MBPLS class by typing
    | ``from mbpls.mbpls import MBPLS``

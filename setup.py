@@ -11,7 +11,7 @@ from setuptools import setup, find_packages
 
 # import mbpls
 
-NAME = "mb-pls"
+NAME = "multiblock-pls"
 # VERSION = mbpls.__version__
 VERSION = '1.1.0'
 DESCRIPTION = "An implementation of the most common partial least squares algorithms as multi-block methods"
