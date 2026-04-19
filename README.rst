@@ -1,12 +1,7 @@
 Multiblock Partial Least Squares Package
 ========================================
 
-.. image:: https://img.shields.io/pypi/v/mbpls.svg
-    :target: https://pypi.python.org/pypi/mbpls
-    :alt: Pypi Version
-.. image:: https://travis-ci.com/DTUComputeStatisticsAndDataAnalysis/MBPLS.svg?branch=master
-   :target: https://travis-ci.com/DTUComputeStatisticsAndDataAnalysis/MBPLS
-   :alt: Build Status
+
 .. image:: https://img.shields.io/pypi/l/mbpls.svg
     :target: https://pypi.python.org/pypi/mbpls/
     :alt: License
@@ -16,6 +11,21 @@ Multiblock Partial Least Squares Package
 .. image:: http://joss.theoj.org/papers/10.21105/joss.01190/status.svg
    :target: https://doi.org/10.21105/joss.01190
    :alt: JOSS Paper DOI
+
+   .. note::
+
+      This is a newly maintained version of the package, based on the original
+      MBPLS software originally developed by Andreas Baum and Laurent Vermue 
+      (homepabe: https://github.com/DTUComputeStatisticsAndDataAnalysis/MBPLS/).
+
+      This maintained version has been updated to be compatible with Python 3.8 and later, and modern
+      version of the dependencies. The original version of the package is no longer maintained, 
+      and users are encouraged to use this updated version for their work.
+
+      To cite this package, plase use the original publication by Baum et al. (2019) as described below 
+      or refer to the GitHub repository for the most recent updates and contributions.
+
+      Lukas Kopecky (l.kopecky22@imperial.ac.uk), April 2026.
 
 An easy to use Python package for (Multiblock) Partial Least Squares
 prediction modelling of univariate or multivariate outcomes. Four state
@@ -27,7 +37,7 @@ toolbox.
 
 The documentation is available at https://mbpls.readthedocs.io
 and elaborate (real-world) Jupyter Notebook examples can be found at
-https://github.com/DTUComputeStatisticsAndDataAnalysis/MBPLS/tree/master/examples
+https://github.com/kopeckylukas/MB-PLS/tree/master/examples
 
 This package can be cited using the following reference. 
 
