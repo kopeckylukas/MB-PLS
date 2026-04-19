@@ -9,10 +9,11 @@
 
 from setuptools import setup, find_packages
 
-import mbpls
+# import mbpls
 
-NAME = "mb-pls"
-VERSION = mbpls.__version__
+NAME = "multiblock-pls"
+# VERSION = mbpls.__version__
+VERSION = '1.1.0'
 DESCRIPTION = "An implementation of the most common partial least squares algorithms as multi-block methods"
 URL = 'https://github.com/kopeckylukas/MB-PLS'
 AUTHORS = "Andreas Baum, Laurent Vermue, Lukas Kopecky"
